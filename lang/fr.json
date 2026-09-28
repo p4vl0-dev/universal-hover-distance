@@ -1,0 +1,105 @@
+{
+  "universal-hover-distance": {
+    "settings": {
+      "enabled": {
+        "name": "Activer l'affichage de la distance",
+        "hint": "Affiche une étiquette de distance lorsque vous survolez un jeton."
+      },
+      "combatOnly": {
+        "name": "Uniquement en combat",
+        "hint": "Affiche l'étiquette de distance seulement pendant un combat actif (démarré)."
+      },
+      "altShowAll": {
+        "name": "Maintenir Alt pour tout afficher",
+        "hint": "Tant que la touche « Mettre en évidence les objets » (Alt par défaut) est maintenue, affiche les distances entre vos jetons sélectionnés et tous les jetons visibles. Nécessite au moins un jeton sélectionné ; sans sélection, rien ne se passe."
+      },
+      "precision": {
+        "name": "Précision décimale",
+        "hint": "Avec quelle précision afficher la valeur de distance.",
+        "choices": {
+          "0": "Nombres entiers (ex. 6)",
+          "1": "Dixièmes (ex. 6,5)",
+          "2": "Centièmes, valeur exacte (ex. 6,53)"
+        }
+      },
+      "unit": {
+        "name": "Suffixe d'unité",
+        "hint": "Texte ajouté après le nombre ; un espace est automatiquement inséré entre les deux (ex. \"6.5 in\"). Utilisez l'unité propre à votre système/table (in, ft, m, cases, etc.)."
+      },
+      "sizeMode": {
+        "name": "Mode de taille de l'étiquette",
+        "hint": "Statique : l'étiquette garde une taille fixe en unités de scène (plus grande en zoomant). Adaptatif : l'étiquette garde une taille constante à l'écran, quel que soit le niveau de zoom ou votre distance à la scène.",
+        "choices": {
+          "static": "Statique (s'ajuste au zoom)",
+          "adaptive": "Adaptatif (taille écran constante)"
+        }
+      },
+      "anchor": {
+        "name": "Position de l'étiquette",
+        "hint": "Où l'étiquette se place par rapport au jeton. « Au-dessus du jeton » / « Sous le jeton » la placent au bord supérieur / inférieur du jeton ; le décalage ci-dessous l'éloigne alors de ce bord. « Centre du jeton » la place exactement au centre (décalage ignoré).",
+        "choices": {
+          "top": "Au-dessus du jeton",
+          "bottom": "Sous le jeton",
+          "center": "Centre du jeton"
+        }
+      },
+      "offset": {
+        "name": "Décalage depuis le bord du jeton (px)",
+        "hint": "Distance, en pixels, entre le bord supérieur ou inférieur du jeton et l'étiquette, dans la direction choisie ci-dessus. Ignoré pour « Centre du jeton »."
+      },
+      "fontFamily": {
+        "name": "Police de caractères",
+        "hint": "Police utilisée pour l'étiquette de distance (doit être disponible/chargée dans Foundry)."
+      },
+      "fontSize": {
+        "name": "Taille de police",
+        "hint": "Taille, en pixels, du texte de l'étiquette."
+      },
+      "fontBold": {
+        "name": "Texte en gras",
+        "hint": "Afficher le texte de l'étiquette en gras."
+      },
+      "fontColor": {
+        "name": "Couleur du texte",
+        "hint": "Couleur du texte de l'étiquette. Utilisez le sélecteur pour choisir une couleur, y compris directement à l'écran."
+      },
+      "strokeColor": {
+        "name": "Couleur du contour",
+        "hint": "Couleur du contour du texte. Utilisez le sélecteur pour choisir une couleur, y compris directement à l'écran."
+      },
+      "strokeWidth": {
+        "name": "Épaisseur du contour",
+        "hint": "Épaisseur, en pixels, du contour du texte. Réglez sur 0 pour désactiver complètement le contour."
+      },
+      "badgeEnabled": {
+        "name": "Afficher un badge de fond",
+        "hint": "Dessine un panneau de fond arrondi derrière le texte de distance, au lieu de simples chiffres flottants."
+      },
+      "badgeColor": {
+        "name": "Couleur du badge",
+        "hint": "Couleur de remplissage du badge de fond derrière le texte."
+      },
+      "badgeOpacity": {
+        "name": "Opacité du badge (%)",
+        "hint": "Opacité du badge de fond, de totalement transparent (0) à totalement opaque (100)."
+      },
+      "badgePadding": {
+        "name": "Largeur du badge (marge latérale, px)",
+        "hint": "Espace horizontal entre le texte et les bords gauche/droit du badge. Réduisez-le pour un badge plus étroit, augmentez-le pour un badge plus large."
+      },
+      "enforceGMStyle": {
+        "name": "Appliquer le style du MJ à tous",
+        "hint": "Réservé au MJ. Si activé, chaque joueur utilise automatiquement les réglages d'apparence du MJ (position, police, couleurs, badge, etc.), et ses propres copies de ces réglages deviennent verrouillées et non modifiables."
+      },
+      "lockedByGM": "Verrouillé : le MJ a imposé ce réglage à tous les joueurs.",
+      "sections": {
+        "general": "Général",
+        "numbers": "Valeur de distance",
+        "position": "Position et taille",
+        "text": "Style du texte",
+        "badge": "Badge de fond",
+        "sync": "Synchronisation joueurs"
+      }
+    }
+  }
+}

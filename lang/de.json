@@ -1,0 +1,105 @@
+{
+  "universal-hover-distance": {
+    "settings": {
+      "enabled": {
+        "name": "Distanzanzeige aktivieren",
+        "hint": "Zeigt beim Überfahren eines Tokens mit der Maus die Entfernung an."
+      },
+      "combatOnly": {
+        "name": "Nur im Kampf",
+        "hint": "Zeigt die Distanzanzeige nur, solange ein Kampf läuft (gestartet ist)."
+      },
+      "altShowAll": {
+        "name": "Alt gedrückt halten: alle Distanzen",
+        "hint": "Solange die Taste „Objekte hervorheben“ (standardmäßig Alt) gehalten wird, werden die Entfernungen von Ihren ausgewählten Tokens zu allen sichtbaren Tokens angezeigt. Erfordert mindestens einen ausgewählten Token; ohne Auswahl passiert nichts."
+      },
+      "precision": {
+        "name": "Nachkommastellen",
+        "hint": "Wie genau der Entfernungswert angezeigt wird.",
+        "choices": {
+          "0": "Ganze Zahlen (z. B. 6)",
+          "1": "Zehntel (z. B. 6.5)",
+          "2": "Hundertstel, exakt (z. B. 6.53)"
+        }
+      },
+      "unit": {
+        "name": "Maßeinheit",
+        "hint": "Text, der nach der Zahl angehängt wird; ein Leerzeichen wird automatisch eingefügt (z. B. \"6.5 in\"). Verwenden Sie die Einheit, die in Ihrem System/an Ihrem Tisch üblich ist (in, ft, m, Felder usw.)."
+      },
+      "sizeMode": {
+        "name": "Größenmodus der Anzeige",
+        "hint": "Statisch: Die Anzeige hat eine feste Größe in Szeneneinheiten (größer beim Hineinzoomen). Adaptiv: Die Anzeige behält eine konstante Bildschirmgröße, unabhängig von der Zoomstufe oder der Entfernung zur Szene.",
+        "choices": {
+          "static": "Statisch (skaliert mit dem Zoom)",
+          "adaptive": "Adaptiv (konstante Bildschirmgröße)"
+        }
+      },
+      "anchor": {
+        "name": "Position der Anzeige",
+        "hint": "Wo die Anzeige relativ zum Token sitzt. „Über dem Token“ / „Unter dem Token“ setzen sie an die Ober- bzw. Unterkante des Tokens; der Versatz unten schiebt sie von dieser Kante weg. „Token-Mitte“ setzt sie genau ins Zentrum (Versatz wird ignoriert).",
+        "choices": {
+          "top": "Über dem Token",
+          "bottom": "Unter dem Token",
+          "center": "Token-Mitte"
+        }
+      },
+      "offset": {
+        "name": "Abstand zur Token-Kante (px)",
+        "hint": "Abstand in Pixeln zwischen der Ober- bzw. Unterkante des Tokens und der Anzeige, in die oben gewählte Richtung. Wird ignoriert bei „Token-Mitte“."
+      },
+      "fontFamily": {
+        "name": "Schriftart",
+        "hint": "Schriftart der Entfernungsanzeige (muss in Foundry verfügbar/geladen sein)."
+      },
+      "fontSize": {
+        "name": "Schriftgröße",
+        "hint": "Größe des Anzeigetexts in Pixeln."
+      },
+      "fontBold": {
+        "name": "Fetter Text",
+        "hint": "Den Entfernungstext fett darstellen."
+      },
+      "fontColor": {
+        "name": "Textfarbe",
+        "hint": "Farbe des Anzeigetexts. Wählen Sie eine Farbe über die Palette, auch direkt vom Bildschirm."
+      },
+      "strokeColor": {
+        "name": "Konturfarbe",
+        "hint": "Farbe der Textkontur. Wählen Sie eine Farbe über die Palette, auch direkt vom Bildschirm."
+      },
+      "strokeWidth": {
+        "name": "Konturstärke",
+        "hint": "Stärke der Textkontur in Pixeln. Auf 0 setzen, um die Kontur vollständig zu deaktivieren."
+      },
+      "badgeEnabled": {
+        "name": "Hintergrund-Plakette anzeigen",
+        "hint": "Zeichnet eine abgerundete Hintergrundfläche hinter dem Entfernungstext, statt reiner freischwebender Zahlen."
+      },
+      "badgeColor": {
+        "name": "Farbe der Plakette",
+        "hint": "Füllfarbe der Hintergrundfläche hinter dem Text."
+      },
+      "badgeOpacity": {
+        "name": "Deckkraft der Plakette (%)",
+        "hint": "Deckkraft der Hintergrundfläche, von vollständig transparent (0) bis vollständig deckend (100)."
+      },
+      "badgePadding": {
+        "name": "Breite der Plakette (Seitenabstand, px)",
+        "hint": "Horizontaler Abstand zwischen Text und linkem/rechtem Rand der Plakette. Kleinerer Wert = schmalere, größerer Wert = breitere Plakette."
+      },
+      "enforceGMStyle": {
+        "name": "SL-Stil für alle Spieler übernehmen",
+        "hint": "Nur für den Spielleiter. Wenn aktiviert, verwenden alle Spieler automatisch die Darstellungseinstellungen des SL (Position, Schrift, Farben, Plakette usw.), und ihre eigenen Kopien dieser Einstellungen werden gesperrt und nicht mehr bearbeitbar."
+      },
+      "lockedByGM": "Gesperrt: Der Spielleiter hat diese Einstellung für alle Spieler festgelegt.",
+      "sections": {
+        "general": "Allgemein",
+        "numbers": "Entfernungswert",
+        "position": "Position und Größe",
+        "text": "Textstil",
+        "badge": "Hintergrund-Plakette",
+        "sync": "Synchronisation für Spieler"
+      }
+    }
+  }
+}

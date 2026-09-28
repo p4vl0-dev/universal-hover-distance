@@ -1,0 +1,105 @@
+{
+  "universal-hover-distance": {
+    "settings": {
+      "enabled": {
+        "name": "Ativar rótulo de distância",
+        "hint": "Mostra um rótulo de distância ao passar o mouse sobre um token."
+      },
+      "combatOnly": {
+        "name": "Somente em combate",
+        "hint": "Mostra o rótulo de distância apenas enquanto há um combate ativo (iniciado)."
+      },
+      "altShowAll": {
+        "name": "Segurar Alt para mostrar todas",
+        "hint": "Enquanto a tecla \"Destacar objetos\" (Alt por padrão) estiver pressionada, mostra as distâncias dos seus tokens selecionados até todos os tokens visíveis. Requer ao menos um token selecionado; sem seleção, nada acontece."
+      },
+      "precision": {
+        "name": "Precisão decimal",
+        "hint": "Com que precisão exibir o valor da distância.",
+        "choices": {
+          "0": "Números inteiros (ex. 6)",
+          "1": "Décimos (ex. 6.5)",
+          "2": "Centésimos, valor exato (ex. 6.53)"
+        }
+      },
+      "unit": {
+        "name": "Sufixo da unidade",
+        "hint": "Texto adicionado após o número; um espaço é inserido automaticamente entre eles (ex. \"6.5 in\"). Use a unidade adotada pelo seu sistema/mesa (in, ft, m, quadrados, etc.)."
+      },
+      "sizeMode": {
+        "name": "Modo de tamanho do rótulo",
+        "hint": "Estático: o rótulo mantém um tamanho fixo em unidades de cena (maior ao aumentar o zoom). Adaptativo: o rótulo mantém um tamanho constante na tela, independentemente do nível de zoom ou da distância até a cena.",
+        "choices": {
+          "static": "Estático (escala com o zoom)",
+          "adaptive": "Adaptativo (tamanho de tela constante)"
+        }
+      },
+      "anchor": {
+        "name": "Posição do rótulo",
+        "hint": "Onde o rótulo fica em relação ao token. \"Acima do token\" / \"Abaixo do token\" o colocam na borda superior / inferior do token; o deslocamento abaixo o afasta dessa borda. \"Centro do token\" o coloca exatamente no centro (deslocamento ignorado).",
+        "choices": {
+          "top": "Acima do token",
+          "bottom": "Abaixo do token",
+          "center": "Centro do token"
+        }
+      },
+      "offset": {
+        "name": "Deslocamento a partir da borda do token (px)",
+        "hint": "Distância, em pixels, entre a borda superior ou inferior do token e o rótulo, na direção escolhida acima. Ignorado em \"Centro do token\"."
+      },
+      "fontFamily": {
+        "name": "Fonte",
+        "hint": "Fonte usada para desenhar o rótulo de distância (deve estar disponível/carregada no Foundry)."
+      },
+      "fontSize": {
+        "name": "Tamanho da fonte",
+        "hint": "Tamanho, em pixels, do texto do rótulo."
+      },
+      "fontBold": {
+        "name": "Texto em negrito",
+        "hint": "Exibir o texto do rótulo em negrito."
+      },
+      "fontColor": {
+        "name": "Cor do texto",
+        "hint": "Cor do texto do rótulo. Use o seletor para escolher uma cor, inclusive diretamente da tela."
+      },
+      "strokeColor": {
+        "name": "Cor do contorno",
+        "hint": "Cor do contorno do texto. Use o seletor para escolher uma cor, inclusive diretamente da tela."
+      },
+      "strokeWidth": {
+        "name": "Espessura do contorno",
+        "hint": "Espessura, em pixels, do contorno do texto. Defina como 0 para desativar o contorno completamente."
+      },
+      "badgeEnabled": {
+        "name": "Mostrar selo de fundo",
+        "hint": "Desenha um painel de fundo arredondado atrás do texto de distância, em vez de números soltos simples."
+      },
+      "badgeColor": {
+        "name": "Cor do selo",
+        "hint": "Cor de preenchimento do selo de fundo atrás do texto."
+      },
+      "badgeOpacity": {
+        "name": "Opacidade do selo (%)",
+        "hint": "Opacidade do selo de fundo, de totalmente transparente (0) a totalmente opaco (100)."
+      },
+      "badgePadding": {
+        "name": "Largura do selo (margem lateral, px)",
+        "hint": "Espaço horizontal entre o texto e as bordas esquerda/direita do selo. Diminua para um selo mais estreito, aumente para um mais largo."
+      },
+      "enforceGMStyle": {
+        "name": "Aplicar estilo do mestre a todos",
+        "hint": "Apenas para o mestre. Quando ativado, todos os jogadores passam a usar automaticamente as configurações de aparência do mestre (posição, fonte, cores, selo, etc.), e as cópias próprias dessas configurações ficam bloqueadas e não editáveis."
+      },
+      "lockedByGM": "Bloqueado: o mestre impôs esta configuração para todos os jogadores.",
+      "sections": {
+        "general": "Geral",
+        "numbers": "Valor da distância",
+        "position": "Posição e tamanho",
+        "text": "Estilo do texto",
+        "badge": "Selo de fundo",
+        "sync": "Sincronização para jogadores"
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "universal-hover-distance",
+  "title": "Universal Hover Distance",
+  "description": "Hovering the cursor over any token displays a label showing the distance—calculated via the shortest path and accounting for elevation—from your selected tokens to that token.",
+  "version": "2.0.0",
+  "authors": [
+    {
+      "name": "Guitarist"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "ru",
+      "name": "Русский",
+      "path": "lang/ru.json"
+    },
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "lang/de.json"
+    },
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    },
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json"
+    },
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    }
+  ],
+  "url": "https://github.com/p4vl0-dev/universal-hover-distance",
+  "manifest": "https://raw.githubusercontent.com/p4vl0-dev/universal-hover-distance/refs/heads/main/module.json",
+  "download": "https://github.com/p4vl0-dev/universal-hover-distance/releases/latest/download/universal-hover-distance.zip"
+}

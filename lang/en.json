@@ -1,0 +1,105 @@
+{
+  "universal-hover-distance": {
+    "settings": {
+      "enabled": {
+        "name": "Enable distance label",
+        "hint": "Show a distance label whenever you hover over a token."
+      },
+      "combatOnly": {
+        "name": "Only during combat",
+        "hint": "Show distance labels only while a combat is active (started)."
+      },
+      "altShowAll": {
+        "name": "Hold Alt to show all distances",
+        "hint": "While holding the \"Highlight Objects\" key (Alt by default), show distances from your selected tokens to every visible token. Requires at least one selected token; without a selection it does nothing."
+      },
+      "precision": {
+        "name": "Decimal precision",
+        "hint": "How precisely to display the distance value.",
+        "choices": {
+          "0": "Whole numbers (e.g. 6)",
+          "1": "Tenths (e.g. 6.5)",
+          "2": "Hundredths, exact (e.g. 6.53)"
+        }
+      },
+      "unit": {
+        "name": "Unit suffix",
+        "hint": "Text appended after the number, with a space automatically added between them (e.g. \"6.5 in\"). Use whatever unit your system/table uses (in, ft, m, squares, etc.)."
+      },
+      "sizeMode": {
+        "name": "Label size mode",
+        "hint": "Static: the label keeps a fixed size in scene units (bigger when you zoom in). Adaptive: the label keeps a constant size on screen regardless of zoom level or your distance from the scene.",
+        "choices": {
+          "static": "Static (scales with zoom)",
+          "adaptive": "Adaptive (constant screen size)"
+        }
+      },
+      "anchor": {
+        "name": "Label position",
+        "hint": "Where the label sits relative to the token. \"Above the token\" / \"Below the token\" place it at the token's top / bottom edge; the offset below then pushes it away from that edge. \"On the token center\" puts it exactly in the middle (offset ignored).",
+        "choices": {
+          "top": "Above the token",
+          "bottom": "Below the token",
+          "center": "On the token center"
+        }
+      },
+      "offset": {
+        "name": "Offset from token edge (pixels)",
+        "hint": "Distance, in pixels, between the token's top or bottom edge and the label, in the direction chosen above. Ignored when the position is \"On the token center\"."
+      },
+      "fontFamily": {
+        "name": "Font family",
+        "hint": "Font used to draw the distance label (must be a font available/loaded in Foundry)."
+      },
+      "fontSize": {
+        "name": "Font size",
+        "hint": "Size, in pixels, of the distance label text."
+      },
+      "fontBold": {
+        "name": "Bold text",
+        "hint": "Draw the distance label in bold."
+      },
+      "fontColor": {
+        "name": "Font color",
+        "hint": "Color of the label text. Use the picker to sample a color, including directly off your screen."
+      },
+      "strokeColor": {
+        "name": "Outline color",
+        "hint": "Color of the label's outline. Use the picker to sample a color, including directly off your screen."
+      },
+      "strokeWidth": {
+        "name": "Outline thickness",
+        "hint": "Thickness, in pixels, of the text outline. Set to 0 to disable the outline entirely."
+      },
+      "badgeEnabled": {
+        "name": "Show background badge",
+        "hint": "Draw a rounded background panel behind the distance text, instead of plain floating numbers."
+      },
+      "badgeColor": {
+        "name": "Badge color",
+        "hint": "Fill color of the background badge behind the text."
+      },
+      "badgeOpacity": {
+        "name": "Badge opacity (%)",
+        "hint": "Opacity of the background badge, from fully transparent (0) to fully opaque (100)."
+      },
+      "badgePadding": {
+        "name": "Badge width (side padding, px)",
+        "hint": "Horizontal space between the text and the badge's left/right edges. Lower it for a narrower badge, raise it for a wider one."
+      },
+      "enforceGMStyle": {
+        "name": "Apply GM style to all players",
+        "hint": "GM only. When enabled, every player automatically uses the GM's appearance settings (position, size, font, colors, badge) and their own copies of these settings become locked and uneditable. Behavior settings (combat-only, ALT mode) stay personal and are not affected."
+      },
+      "lockedByGM": "Locked: the GM has enforced this setting for all players.",
+      "sections": {
+        "general": "General",
+        "numbers": "Distance value",
+        "position": "Position & size",
+        "text": "Text style",
+        "badge": "Background badge",
+        "sync": "Multiplayer sync"
+      }
+    }
+  }
+}

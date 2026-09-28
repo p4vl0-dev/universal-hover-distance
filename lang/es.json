@@ -1,0 +1,105 @@
+{
+  "universal-hover-distance": {
+    "settings": {
+      "enabled": {
+        "name": "Activar etiqueta de distancia",
+        "hint": "Muestra una etiqueta de distancia al pasar el cursor sobre un token."
+      },
+      "combatOnly": {
+        "name": "Solo en combate",
+        "hint": "Muestra la etiqueta de distancia únicamente mientras hay un combate activo (iniciado)."
+      },
+      "altShowAll": {
+        "name": "Mantener Alt para ver todas",
+        "hint": "Mientras mantengas la tecla «Resaltar objetos» (Alt por defecto), muestra las distancias desde tus tokens seleccionados hasta todos los tokens visibles. Requiere al menos un token seleccionado; sin selección no hace nada."
+      },
+      "precision": {
+        "name": "Precisión decimal",
+        "hint": "Con qué precisión mostrar el valor de la distancia.",
+        "choices": {
+          "0": "Números enteros (ej. 6)",
+          "1": "Décimas (ej. 6.5)",
+          "2": "Centésimas, valor exacto (ej. 6.53)"
+        }
+      },
+      "unit": {
+        "name": "Sufijo de unidad",
+        "hint": "Texto añadido después del número; se inserta automáticamente un espacio entre ambos (ej. \"6.5 in\"). Use la unidad propia de su sistema/mesa (in, ft, m, casillas, etc.)."
+      },
+      "sizeMode": {
+        "name": "Modo de tamaño de la etiqueta",
+        "hint": "Estático: la etiqueta mantiene un tamaño fijo en unidades de escena (más grande al hacer zoom). Adaptativo: la etiqueta mantiene un tamaño constante en pantalla, sin importar el nivel de zoom o la distancia a la escena.",
+        "choices": {
+          "static": "Estático (escala con el zoom)",
+          "adaptive": "Adaptativo (tamaño de pantalla constante)"
+        }
+      },
+      "anchor": {
+        "name": "Posición de la etiqueta",
+        "hint": "Dónde se coloca la etiqueta respecto al token. «Encima del token» / «Debajo del token» la sitúan en el borde superior / inferior del token; el desplazamiento de abajo la aleja de ese borde. «Centro del token» la coloca justo en el centro (se ignora el desplazamiento).",
+        "choices": {
+          "top": "Encima del token",
+          "bottom": "Debajo del token",
+          "center": "Centro del token"
+        }
+      },
+      "offset": {
+        "name": "Desplazamiento desde el borde del token (px)",
+        "hint": "Distancia, en píxeles, entre el borde superior o inferior del token y la etiqueta, en la dirección elegida arriba. Se ignora con «Centro del token»."
+      },
+      "fontFamily": {
+        "name": "Tipo de letra",
+        "hint": "Fuente utilizada para la etiqueta de distancia (debe estar disponible/cargada en Foundry)."
+      },
+      "fontSize": {
+        "name": "Tamaño de fuente",
+        "hint": "Tamaño, en píxeles, del texto de la etiqueta."
+      },
+      "fontBold": {
+        "name": "Texto en negrita",
+        "hint": "Mostrar el texto de la etiqueta en negrita."
+      },
+      "fontColor": {
+        "name": "Color del texto",
+        "hint": "Color del texto de la etiqueta. Use el selector para elegir un color, incluso directamente desde la pantalla."
+      },
+      "strokeColor": {
+        "name": "Color del contorno",
+        "hint": "Color del contorno del texto. Use el selector para elegir un color, incluso directamente desde la pantalla."
+      },
+      "strokeWidth": {
+        "name": "Grosor del contorno",
+        "hint": "Grosor, en píxeles, del contorno del texto. Ponga 0 para desactivar el contorno por completo."
+      },
+      "badgeEnabled": {
+        "name": "Mostrar placa de fondo",
+        "hint": "Dibuja un panel de fondo redondeado detrás del texto de distancia, en lugar de números flotantes simples."
+      },
+      "badgeColor": {
+        "name": "Color de la placa",
+        "hint": "Color de relleno de la placa de fondo detrás del texto."
+      },
+      "badgeOpacity": {
+        "name": "Opacidad de la placa (%)",
+        "hint": "Opacidad de la placa de fondo, desde totalmente transparente (0) hasta totalmente opaca (100)."
+      },
+      "badgePadding": {
+        "name": "Ancho de la placa (margen lateral, px)",
+        "hint": "Espacio horizontal entre el texto y los bordes izquierdo/derecho de la placa. Redúzcalo para una placa más estrecha, auméntelo para una más ancha."
+      },
+      "enforceGMStyle": {
+        "name": "Aplicar el estilo del DJ a todos",
+        "hint": "Solo para el DJ. Si se activa, todos los jugadores usan automáticamente los ajustes de apariencia del DJ (posición, fuente, colores, placa, etc.), y sus propias copias de estos ajustes quedan bloqueadas y no se pueden editar."
+      },
+      "lockedByGM": "Bloqueado: el DJ ha impuesto este ajuste a todos los jugadores.",
+      "sections": {
+        "general": "General",
+        "numbers": "Valor de distancia",
+        "position": "Posición y tamaño",
+        "text": "Estilo del texto",
+        "badge": "Placa de fondo",
+        "sync": "Sincronización para jugadores"
+      }
+    }
+  }
+}
