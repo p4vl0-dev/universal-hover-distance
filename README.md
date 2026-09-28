@@ -52,9 +52,13 @@ Foundry v14 may run a different PIXI version than v12/v13. The module picks the 
 ## Install
 
 Paste this manifest URL into Foundry's module installer:
-
+### V13-14
 ```
-<manifest url here>
+https://raw.githubusercontent.com/p4vl0-dev/universal-hover-distance/refs/heads/main/module.json
+```
+### V12
+```
+https://github.com/p4vl0-dev/universal-hover-distance/releases/download/v12/module.json
 ```
 
 Or drop the `universal-hover-distance` folder into `Data/modules/` and enable it in your world.
